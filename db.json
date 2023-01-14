@@ -1,0 +1,20 @@
+{
+  "bills": [
+    {
+      "date": "1/14/2023",
+      "id": "2",
+      "description": "a",
+      "category": "c",
+      "amount": "1000",
+      "status": "d"
+    },
+    {
+      "id": "3",
+      "description": "b",
+      "category": "b",
+      "amount": "1000",
+      "date": "1/14/2023",
+      "status": "dee"
+    }
+  ]
+}
