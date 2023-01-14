@@ -91,6 +91,14 @@ export default function Addbill() {
                 value={formdata.status}
               ></MDBInput>
               <br />
+              <MDBInput
+                label="Date"
+                type="date"
+                name="date"
+                onChange={handelonchange}
+                value={formdata.date}
+              ></MDBInput>
+              <br />
             </MDBModalBody>
             <MDBModalFooter>
               <MDBBtn color="secondary" onClick={toggleShow}>

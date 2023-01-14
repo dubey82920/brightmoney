@@ -1,20 +1,36 @@
 {
   "bills": [
     {
-      "date": "1/14/2023",
       "id": "2",
-      "description": "a",
-      "category": "c",
-      "amount": "1000",
-      "status": "d"
+      "description": "ab",
+      "category": "cd",
+      "amount": "10000",
+      "date": "1/14/2023",
+      "status": "dnmm"
     },
     {
       "id": "3",
-      "description": "b",
-      "category": "b",
+      "description": "bmk",
+      "category": "bkk",
       "amount": "1000",
       "date": "1/14/2023",
       "status": "dee"
+    },
+    {
+      "date": "2023-01-12",
+      "id": "9",
+      "description": "lkmfd",
+      "category": "kjf",
+      "amount": "knd",
+      "status": "paid"
+    },
+    {
+      "id": "10",
+      "description": "lkmfddfff",
+      "category": "kjffff",
+      "amount": "kndffff",
+      "date": "2023-01-06",
+      "status": "Paidfdsff"
     }
   ]
 }

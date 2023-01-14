@@ -49,6 +49,14 @@ export default function App(props) {
               ></MDBBtn>
             </MDBModalHeader>
             <MDBModalBody>
+            <MDBInput
+                label="Id"
+                name="id"
+                type="text"
+                onChange={handelonchange}
+                value={formdata.id}
+              ></MDBInput>
+              <br />
               <MDBInput
                 label="Description"
                 name="description"
@@ -79,6 +87,14 @@ export default function App(props) {
                 name="status"
                 onChange={handelonchange}
                 value={formdata.status}
+              ></MDBInput>
+              <br />
+              <MDBInput
+                label="Date"
+                type="date"
+                name="date"
+                onChange={handelonchange}
+                value={formdata.date}
               ></MDBInput>
               <br />
             </MDBModalBody>

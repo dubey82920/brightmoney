@@ -119,6 +119,9 @@ const billing = createSlice({
     },
     [updateBill.fulfilled]: (state, action) => {
       state.loading = false;
+      const p = state.bills.map((item,index) => (item.id === action.payload.id ? action.payload : item))
+      console.log("kuh")
+      state.bills = p;
     },
     [updateBill.rejected]: (state, action) => {
       state.loading = false;
